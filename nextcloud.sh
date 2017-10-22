@@ -3,6 +3,7 @@
 # yum -y update
 # cd /var/lib/dpkg/info
 # rm -rf *
+apt-get -o Acquire::ForceIPv4=true update
 sudo apt-get -y update
 sudo apt-get -y
 sudo apt-get -y install nginx
